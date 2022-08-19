@@ -1,0 +1,17 @@
+.liste {
+    display:flex;
+    list-style-type: none;
+    width:100%;
+    justify-content: space-around;
+
+}
+
+.items {
+    color:#9F9FA9;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+.items:hover {
+    color:black;
+}

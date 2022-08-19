@@ -1,0 +1,43 @@
+
+
+#fichecontainer {
+    width:50%;
+}
+
+#firstcontainer {
+    display:flex;
+    align-items: center;
+}
+
+#firsttext {
+    margin:0px;
+    padding:0px;
+    color: #2FE0A7;
+    font-size:20px;
+    font-weight: 600;
+}
+
+#stick {
+    width:40px;
+    height:2px;
+    background-color: #2FE0A7;
+    margin-right:20px;
+}
+
+h1 {
+    font-size:56px;
+    margin-top:10px;
+    line-height: 1.4;
+    font-weight: 600;
+
+}
+
+p {
+    line-height: 1.6;
+    font-size:18px;
+}
+
+#contentbold {
+    font-weight: 700;
+}
+

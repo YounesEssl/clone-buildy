@@ -1,0 +1,16 @@
+
+
+button {
+    padding:0px 32px;
+    height:60px;
+    background-color:#2FE0A7;
+    border:2px solid #2FE0A7;
+    color:white;
+    border-radius: 20px;
+    font-size:18px;
+    font-family: "Poppins";
+}
+
+#icon {
+    margin-left:10px;
+}

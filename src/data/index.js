@@ -1,5 +1,5 @@
 const data = {
-    firsttext : "Notre mistesn",
+    firsttext : "Notre mission",
     title : "Révolutionner",
     title2 : "La Gestion Technique",
     title3 : "des Bâtiments",

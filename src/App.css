@@ -30,9 +30,31 @@ header {
 
 main {
     margin-left: 120px;
+    padding-left:50px;
 }
 
 #btn-container {
     display:flex;
     gap:10px;
+    margin-bottom:300px;
 }
+
+#secondcontainer {
+    display:flex;
+
+
+}
+
+
+#secondcontainer > img {
+    width:30%;
+    height:30%;
+    margin-right:30px;
+}
+
+#btn-content-container {
+    display:flex;
+    flex-direction: column;
+    
+}
+

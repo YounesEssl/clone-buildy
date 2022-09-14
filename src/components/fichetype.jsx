@@ -1,9 +1,9 @@
 import "./fichetype.css"
 
 
-function Fiche({firsttext, title, title2, title3, content, content2, content3, content4,valuebutton}) {
+function Fiche({firsttext, title, title2, title3, content, content2, content3, content4,taille}) {
     return (
-    <div id="fichecontainer">
+    <div id="fichecontainer" style={{width: taille}}>
         <div id="firstcontainer">
             <div id="stick"></div>
             <p id="firsttext">{firsttext}</p>

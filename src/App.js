@@ -7,6 +7,7 @@ import data from "./data/index.js";
 import Button from "./components/button.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import planeteimg from "./assets/images/home-planete.png";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           content2={data.content2}
           content3={data.content3}
           content4={data.content4}
+          taille="50%"
         ></Fiche>
         <div id="btn-container">
           <Button
@@ -39,6 +41,23 @@ function App() {
             color="#2FE0A7"
             bordercolor="#2FE0A7"
           />
+        </div>
+        <div id="secondcontainer">
+          <img src={planeteimg} height="auto" />
+          <div id="btn-content-container">
+            <Fiche
+              id="test"
+              firsttext={data.secondtext}
+              title={data.title4}
+              title2={data.title5}
+              content3={data.content5}
+              taille="70%"
+            />
+            <Button
+              text="Pour quels bénéfices ?"
+              icon={<FontAwesomeIcon icon={faArrowRight} />}
+            />
+          </div>
         </div>
       </main>
       <div id="bg-container">
